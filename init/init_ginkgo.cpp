@@ -38,7 +38,7 @@ void property_override(string prop, string value)
 
 void vendor_load_properties()
 {
-    string device, model,
+    string device, model;
 
     string region = GetProperty("ro.boot.hwc", "");
     string hwversion = GetProperty("ro.boot.hwversion", "");
